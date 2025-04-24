@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BarChart, Users, Farm, Sprout } from "lucide-react";
+import { BarChart, Users, Warehouse, Sprout } from "lucide-react";
 import AdminLayout from "@/components/layout/AdminLayout";
 
 const Dashboard = () => {
@@ -14,7 +14,7 @@ const Dashboard = () => {
     {
       title: "Active Farms",
       value: "56",
-      icon: Farm,
+      icon: Warehouse,
       description: "Farms under management",
     },
     {
